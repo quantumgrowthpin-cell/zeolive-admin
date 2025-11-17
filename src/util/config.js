@@ -1,7 +1,7 @@
-export const baseURL = process.env.NEXT_PUBLIC_LEGACY_API_URL || 'https://zeolive.in'
-export const v2ApiBaseURL = process.env.NEXT_PUBLIC_API_BASE_URL || 'http://localhost:5001/v1'
+export const baseURL = process.env.NEXT_PUBLIC_LEGACY_API_URL || 'https://zeolive-admin.onrender.com'
+export const v2ApiBaseURL = process.env.NEXT_PUBLIC_API_BASE_URL || 'https://zeolive-backend.onrender.com/v1'
 // Backend base URL for uploads (without /v1 suffix)
-export const backendBaseURL = process.env.NEXT_PUBLIC_BACKEND_BASE_URL || 'http://localhost:5001'
+export const backendBaseURL = process.env.NEXT_PUBLIC_BACKEND_BASE_URL || 'https://zeolive-backend.onrender.com'
 export const key = process.env.NEXT_PUBLIC_LEGACY_API_KEY || 'IN.m$B@zgLQ)Ut<pX}PqEFZltD8u^c'
 
 export const projectName = process.env.NEXT_PUBLIC_PROJECT_NAME || 'Zeolive'
