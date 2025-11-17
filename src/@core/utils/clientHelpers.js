@@ -1,0 +1,14 @@
+import axios from 'axios'
+
+import { baseURL, key } from '@/util/config'
+
+export const getLogin = async () => {
+  const response = await axios.get(`${baseURL}/api/admin/admin/checkAdminRegistration`, {
+    headers: {
+      'Content-Type': 'application/json',
+      key: key
+    }
+  })
+
+  return response.data
+}
